@@ -1,0 +1,19 @@
+.navbar{
+    color: white;
+}
+#navnameid{
+    font-size: 30px;
+    font-weight: 600;
+}
+.card{
+    box-shadow: 2px 2px 8px 1px #888888;
+}
+#emailid{
+    border: 0.5px solid rgb(197, 178, 5);
+}
+#btnbtn{
+    background-color: #F2DE1D;
+    color: white;
+    font-weight: 600;
+    border-color:  #F2DE1D;
+}
