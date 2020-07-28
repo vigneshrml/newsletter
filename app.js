@@ -38,7 +38,7 @@ app.post("/" ,function(req,res){
     var emailadd = req.body.email;
 
     var mailOptions = {
-        from: '"Vignesh Bharathi" vignesh20010722@gmail.com',
+        from: '"Vignesh Bharathi" 19p141@kce.ac.in',
         to: emailadd,
         subject: 'The More You Learn The More You Earn',
        
