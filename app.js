@@ -30,8 +30,8 @@ app.post("/" ,function(req,res){
     var transporter = nodemailer.createTransport({
         service: 'gmail',
         auth: {
-          user: 'vignesh20010722@gmail.com',
-          pass: 'Vickysathy@22'
+          user: '19p141@kce.ac.in',
+          pass: '8973040688'
         }
       });
 
