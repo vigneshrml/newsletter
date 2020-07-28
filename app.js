@@ -40,32 +40,24 @@ app.post("/" ,function(req,res){
     var mailOptions = {
         from: '"Vignesh Bharathi" 19p141@kce.ac.in',
         to: emailadd,
-        subject: 'The More You Learn The More You Earn',
+        subject: 'You must Learn To Earn',
        
       };
 
-      transporter.sendMail(mailOptions, function(error, info){
+     transporter.sendMail(mailOptions, function(error, info){
         if (error) {
           console.log(error);
         } else {
           console.log('Email sent: ' + info.response);
+          res.render("success");
         }
       });
-
-    res.redirect("/success");
 });
 
 
 
-
-
-
-
-
-
-
 app.listen(port , function(){
-   console.log("Server connected");
+   console.log("Server connected on Heroku");
 });
 
 
