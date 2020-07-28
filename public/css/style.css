@@ -10,12 +10,19 @@
     box-shadow: 2px 2px 5px 1px #dddddd;
 }
 #emailid{
+    color: #6e6d6d;
     border: 0.5px solid rgb(197, 178, 5);
     font-weight: 600;
+   
 }
 #btnbtn{
     background-color: #F2DE1D;
     color: white;
     font-weight: 600;
     border-color:  #F2DE1D;
+}
+span{
+    font-size: 25px;
+    font-weight: 600;
+    color: #009fbb;
 }
