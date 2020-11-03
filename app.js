@@ -30,7 +30,7 @@ app.post("/" ,function(req,res){
         service: 'gmail',
         auth: {
           user: '19p141@kce.ac.in',
-          pass: '8973040688'
+          pass: 'Vicky@22'
         }
       });
 
@@ -39,7 +39,7 @@ app.post("/" ,function(req,res){
     var mailOptions = {
         from: '"Vignesh Bharathi" 19p141@kce.ac.in',
         to: emailadd,
-        subject: 'You must Learn To Earn',
+        subject: 'Better fuck next time',
         html: '<b style="color:#FCAF3B;font-size:35px;">Better Luck Next Time 😂😂😂</b>'
       };
 
