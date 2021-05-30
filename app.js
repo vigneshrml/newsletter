@@ -29,15 +29,15 @@ app.post("/" ,function(req,res){
     var transporter = nodemailer.createTransport({
         service: 'gmail',
         auth: {
-          user: '19p141@kce.ac.in',
-          pass: 'Vicky@22'
+          user: '<Email>',
+          pass: '<Password>'
         }
       });
 
     var emailadd = req.body.email;
 
     var mailOptions = {
-        from: '"Vignesh Bharathi" 19p141@kce.ac.in',
+        from: '"Name of the person" <Email to send>',
         to: emailadd,
         subject: 'Better Luck next time',
         html: '<b style="color:#FCAF3B;font-size:35px;">Better Luck Next Time 😂😂😂</b>'
