@@ -39,7 +39,7 @@ app.post("/" ,function(req,res){
     var mailOptions = {
         from: '"Vignesh Bharathi" 19p141@kce.ac.in',
         to: emailadd,
-        subject: 'Better fuck next time',
+        subject: 'Better Luck next time',
         html: '<b style="color:#FCAF3B;font-size:35px;">Better Luck Next Time 😂😂😂</b>'
       };
 
